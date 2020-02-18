@@ -6,7 +6,7 @@ class KeyPadComponent extends Component {
         return (
             <div className="button">
                 <button name="C" onClick={e => this.props.onClick(e.target.name)}>C</button>
-                <button name="CE" onClick={e => this.props.onClick(e.target.name)}>CE</button>
+                <button name="CE" onClick={e => this.props.onClick(e.target.name)}>+/-</button>
                 <button name="%" onClick={e => this.props.onClick(e.target.name)}>%</button>
                 <button name="/" className="endButton" onClick={e => this.props.onClick(e.target.name)}>÷</button><br/>
 

@@ -1,0 +1,90 @@
+#root{
+  position: absolute;
+  background: #77bbff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.equation{
+  position: relative;
+  top: 50px;
+  height: 40px;
+  width: 90%;
+  color: #99aaee;
+}
+
+.equation p{
+  font-size: 25px;
+  text-align: right;
+}
+
+.result {
+  height: 60px;
+  width: 90%;
+  position: relative;
+  top: 40px;
+  color: #99aaee;
+}
+
+.result p {
+  font-size: 45px;
+  margin: 5px;
+  text-align: right;
+}
+
+.calculator-body {
+  max-width: 260px;
+  margin: auto;
+  height: 65vh;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px #6688ff;
+}
+
+.button {
+  position: relative;
+  top: 60px;
+  display: block;
+}
+
+button {
+  margin-left: 8%;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: hidden;
+  margin-bottom: 20px;
+  box-shadow: 3px 5px 15px #e0e0ff;
+  background: white;
+  font-size: 25px;
+  outline: none;
+  color: #99aaee;
+}
+
+.endButton{
+  margin-left: 8%;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: hidden;
+  margin-bottom: 20px;
+  background: #77bbff;
+  box-shadow: 0px 6px 15px #a0a0ff;
+  font-size: 20px;
+  outline: none;
+  color: #ffffff; 
+}
+
+.dualButton{
+  margin-left: 8%;
+  border-radius: 20px;
+  width: calc(80px + 8%);
+  height: 42px;
+  border: hidden;
+  margin-bottom: 20px;
+  background: #77bbff;
+  box-shadow: 5px 5px 10px #bbbbff;
+  font-size: 20px;
+  outline: none;
+  color: #ffffff; 
+}
